@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ChizzBot
+namespace PFCB
 {
     public partial class Form2 : Form
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ChizzBot
+namespace PFCB
 {
     static class Program
     {

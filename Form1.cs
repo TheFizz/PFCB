@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
 
-namespace ChizzBot
+namespace PFCB
 {
     public partial class Form1 : Form
     {
-        ChizzBot bot;
+        PFCB bot;
         public bool connectState = false;
         public Form1()
         {
@@ -38,7 +38,7 @@ namespace ChizzBot
 
         public void CreateBot()
         {
-            bot = new ChizzBot(this);
+            bot = new PFCB(this);
             LoadTracks();
             bot.volume = tbVolume.Value;
         }

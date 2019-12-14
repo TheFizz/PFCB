@@ -10,9 +10,9 @@ using TwitchLib.Communication.Models;
 using TwitchLib.Api;
 using Nito.AsyncEx.Synchronous;
 
-namespace ChizzBot
+namespace PFCB
 {
-    class ChizzBot
+    class PFCB
     {
         TwitchClient client;
         private static TwitchAPI api;
@@ -24,7 +24,7 @@ namespace ChizzBot
         string connectedChannel;
         public int volume;
 
-        public ChizzBot(Form1 f)
+        public PFCB(Form1 f)
         {
             form = f;
             var clientOptions = new ClientOptions

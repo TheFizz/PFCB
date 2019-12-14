@@ -1,4 +1,4 @@
-﻿namespace ChizzBot
+﻿namespace PFCB
 {
     partial class Form2
     {
